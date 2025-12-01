@@ -1,0 +1,55 @@
+body {
+    font-family: Arial;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background: #333;
+    color: white;
+    padding: 15px;
+}
+
+header nav a {
+    color: white;
+    margin-right: 10px;
+    text-decoration: none;
+}
+
+.form-container {
+    width: 300px;
+    margin: auto;
+    margin-top: 50px;
+}
+
+input,
+button {
+    width: 100%;
+    padding: 10px;
+    margin: 5px 0;
+}
+
+.product-list {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.product-card {
+    border: 1px solid #ccc;
+    padding: 10px;
+    margin: 10px;
+    text-align: center;
+}
+
+table {
+    width: 70%;
+    margin: auto;
+    border-collapse: collapse;
+}
+
+th,
+td {
+    border: 1px solid black;
+    padding: 10px;
+    text-align: center;
+}
